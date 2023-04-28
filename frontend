@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-compatible" content="ifram">
+    <meta name="viewport" content="width=<> , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="submit-form.php" method="post">
+            <1i>
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" required><br><br>
+            </1i>
+
+            <1i>
+               <label for="email">Email</label>
+               <input type="email" id="email" name="email" required><br><br>
+            </1i>    
+             
+            <1i>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required><br><br>      
+            </1i>
+            
+            <1i>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br><br>              
+            </1i>
+            
+            <1i>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+                <input type="submit" value="Submit">  
+            </1i>
+    </form>
+    
+    <section>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+    </section>
+    <p><a href="https://www.youtube.com/embed/dQw4w9WgXcQ" target="_blank">Open in new tab</a></p>
+</body>
+</html>
